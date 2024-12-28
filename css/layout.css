@@ -1,0 +1,454 @@
+body{
+    background-color: #1F1F1F;
+    max-width: 1440px;
+}
+.first-frame{
+    width: 100%;
+    overflow: hidden;
+    height: 280vh;
+}
+.text{
+    font-size: 20px;
+    color: #1F1F1F;
+    opacity: 0.7;
+    -webkit-text-stroke: 0.05px #CE99B3;
+    width: 100%;
+    white-space: nowrap;
+    filter: blur(1px);
+    position: relative;
+}
+.scroll-10{
+    color: #1F1F1F;
+    -webkit-text-stroke: 0px #CE99B3;
+    opacity: 0;
+}
+.levitation{
+    width: 100%;
+}
+.levitation img{
+    margin-left: 25%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.line{
+    width: 105%;
+    margin-left: -1%;
+    height: 120px;
+    background-color: #1F1F1F;
+    border: #A353B5 solid 5px;
+    z-index: 4;
+}
+.line1{
+    transform: rotate(3deg);
+    margin-top: -120px;
+    margin-bottom: 120px;
+    width: 105%;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 3;
+}
+.line2{
+    transform: rotate(-5deg);
+    margin-top: -70px;
+    width: 105%;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 10;
+}
+.line3{
+    position: absolute;
+    transform: rotate(25deg);
+    width: 140%;
+    margin-top: 300px;
+    margin-left: -150px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 10;
+    overflow: hidden;
+    
+}
+.line3 img{
+    margin-top: 15px;
+    height: 70%;
+    animation: scroll 5s ease infinite ;
+    opacity: 0.8;
+}
+.line4{
+    transform: rotate(-1deg);
+    margin-top: -250px;
+    width: 105%;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 10;
+    margin-bottom: 100px;
+}
+.line4 img{
+    margin-top: 15px;
+    height: 70%;
+    animation: scroll 5s ease infinite ;
+    opacity: 0.8;
+}
+.line2 img{
+    margin-top: 15px;
+    height: 70%;
+    animation: scroll 5s ease infinite ;
+    opacity: 0.8;
+}
+.line1 img{
+    margin-top: 15px;
+    height: 70%;
+    animation: scroll 5s ease infinite ;
+    opacity: 0.8;
+}
+.second-frame{
+    height: 90vh; 
+    overflow: hidden;   
+}
+.gif{
+    opacity: 0.7;
+    width: 70%;
+    margin-top: -190px;
+    margin-left: -150px;
+    filter: blur(0px);
+    z-index: 1;
+}
+.eye-container {
+    position: relative;
+    overflow: hidden;
+    margin-left: -70px;
+    height: 1vh;
+    z-index: 3;
+}
+.eye1 {
+    width: 600px; 
+    height: 600px;
+    top: -840px;
+    left: 700px;
+}
+.eye2 {
+    width: 350px; 
+    height: 350px;
+    top: -1440px;
+    left: 380px;
+}
+.eye3 {
+    width: 250px; 
+    height: 250px;
+    top: -1840px;
+    left: 170px;
+}
+.eye4 {
+    width: 200px; 
+    height: 200px;
+    top: -1900px;
+    left: 50px;
+}
+.eye5 {
+    width: 200px; 
+    height: 200px;
+    top: -2270px;
+    left: 720px;
+}
+.eye6 {
+    width: 350px;
+    height: 350px;
+    top: -2100px;
+    left: 1220px;
+}
+.eye7 {
+    width: 250px; 
+    height: 250px;
+    top: -2800px;
+    left: 1220px;
+}
+.eye8 {
+    width: 200px; 
+    height: 200px;
+    top: -2550px;
+    left: 800px;
+}
+
+.eye {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+}
+
+.open-eye {
+    animation: blink-open 5s infinite;
+}
+
+.closed-eye {
+    animation: blink-closed 5s infinite; 
+}
+
+@keyframes blink-open {
+    0%, 90% { 
+        opacity: 1;
+    }
+    91%, 100% { 
+        opacity: 0;
+    }
+}
+
+@keyframes blink-closed {
+    0%, 90% { 
+        opacity: 0;
+    }
+    91%, 100% { 
+        opacity: 1;
+    }
+}
+
+.eye-container:hover .open-eye {
+    animation: none;
+    opacity: 0; 
+}
+
+.eye-container:hover .closed-eye {
+    animation: none; 
+    opacity: 1; 
+}
+.girl-frame{
+    width: 50%;
+    height: 60vh;
+    overflow: hidden;
+}
+.girl{
+    position: relative;
+    width: 100%;
+    margin-top: 120px;
+
+    
+}
+.gf1{
+    width: 50%;
+    height: 90vh;
+    overflow: hidden;
+    z-index: 3;
+}
+.gf2{
+    margin-left: -20px;
+    width: 110%;
+    height: 100vh;
+    margin-top: -100px;
+    overflow: hidden;
+    z-index: 3;
+    transform: rotate(-5deg);
+}
+.fourthframe{
+    width: 100%;
+    max-width: 1440px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+  .fifthframe{
+    max-width: 1440px;
+    overflow: hidden;
+    margin-top: -200px;
+  }
+  .beds{
+    height: 700px;
+    max-width: 1440px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .bed {
+    position: absolute;
+    top: 20%;
+    width: 300px;
+    max-width: 1440px;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+.text4{
+    font-size: 50px;
+    color: white;
+}
+  .text1{
+    animation: float 10s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.text2{
+    animation: float 15s linear infinite;
+    top: 350%;
+    left: -400px;
+}
+
+.text3{
+    animation: float 12s linear infinite;
+    top: 380%;
+    left: -200px;
+}
+.text5{
+    animation: float 20s linear infinite;
+    top: 410%;
+    left: -300px;
+}
+
+.text6{
+    animation: float 25s linear infinite;
+    top: 440%;
+    left: -400px;
+}
+
+.text7{
+    animation: float 20s linear infinite;
+    top: 470%;
+    left: -200px;
+}
+.bed1{
+    animation: float 10s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.bed2{
+    animation: float 15s linear infinite;
+    top: 350%;
+    left: -400px;
+}
+
+.bed3{
+    animation: float 12s linear infinite;
+    top: 380%;
+    left: -200px;
+}
+.bed4{
+    animation: float 15s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.bed5{
+    animation: float 20s linear infinite;
+    top: 350%;
+    left: -400px;
+}
+
+.bed6{
+    animation: float 17s linear infinite;
+    top: 360%;
+    left: -200px;
+}
+.cloud1{
+    animation: float 6s linear infinite;
+    top: 380%;
+    left: -200px;
+}
+.cloud2{
+    animation: float 4s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.cloud3{
+    animation: float 8s linear infinite;
+    top: 350%;
+    left: -400px;
+}
+.cloud4{
+    animation: float 6s linear infinite;
+    top: 410%;
+    left: -400px;
+}
+.cloud5{
+    animation: float 4s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.cloud6{
+    animation: float 8s linear infinite;
+    top: 350%;
+    left: -400px;
+}
+.cloud7{
+    animation: float 6s linear infinite;
+    top: 410%;
+    left: -400px;
+}
+.cloud8{
+    animation: float 4s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.cloud9{
+    animation: float 8s linear infinite;
+    top: 350%;
+    left: -400px;
+}
+.cloud10{
+    animation: float 7s linear infinite;
+    top: 375%;
+    left: -400px;
+}
+.cloud11{
+    animation: float 13s linear infinite;
+    top: 335%;
+    left: -300px;
+}
+
+.cloud12{
+    animation: float 14s linear infinite;
+    top: 355%;
+    left: -400px;
+}
+.cloud13{
+    animation: float 16s linear infinite;
+    top: 375%;
+    left: -400px;
+}
+.cloud14{
+    animation: float 4s linear infinite;
+    top: 398%;
+    left: -400px;
+}
+.cloud15{
+    animation: float 12s linear infinite;
+    top: 327%;
+    left: -300px;
+}
+
+.cloud16{
+    animation: float 15s linear infinite;
+    top: 343%;
+    left: -400px;
+}
+.cloud17{
+    animation: float 4s linear infinite;
+    top: 395%;
+    left: -400px;
+}
+.cloud18{
+    animation: float 11s linear infinite;
+    top: 320%;
+    left: -300px;
+}
+
+.cloud19{
+    animation: float 3s linear infinite;
+    top: 365%;
+    left: -400px;
+}
+@keyframes float {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(120vw);
+    }
+}
+.latframe{
+    margin-top: 100px;
+    height: 500px;
+    max-width: 1440px;
+    width: 100%;
+    overflow: hidden;
+}

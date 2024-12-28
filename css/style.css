@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "layout.css";
+@import "responsive.css";
+@import  "fonts.css";
+@import url('animation.css');
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
